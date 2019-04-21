@@ -11,14 +11,20 @@ import UIKit
 class DetailsViewController: UIViewController {
 
     
-    @IBOutlet weak var locationTitle: UILabel!
+    @IBOutlet weak var navigationBar: UINavigationBar!
     @IBOutlet weak var locationDesc: UITextView!
     @IBOutlet weak var locationImage: UIImageView!
+    
+    var locationTitleString: String?
+    var locationDescString: String?
+    var locationImageUri: String?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        navigationBar.topItem?.title = locationTitleString
+        locationDesc.text = locationDescString
         // Do any additional setup after loading the view.
     }
 
@@ -27,6 +33,9 @@ class DetailsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func closeDetails(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

@@ -26,42 +26,57 @@
         <!--Details View Controller-->
         <scene sceneID="0h7-HP-jml">
             <objects>
-                <viewController id="tjs-lN-jGR" customClass="DetailsViewController" customModule="GOT_Earth" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tjs-lN-jGR" customClass="DetailsViewController" customModule="GOT_Earth" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mup-18-1x5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfR-h8-rTz">
-                                <rect key="frame" x="166" y="37" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iwS-BG-Dsa">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iwS-BG-Dsa">
                                 <rect key="frame" x="67" y="101" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="FOn-SZ-r2T"/>
+                                </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qSz-xU-9Ij">
-                                <rect key="frame" x="67" y="299" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qSz-xU-9Ij">
+                                <rect key="frame" x="67" y="279" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="YM8-Ui-gAZ"/>
+                                    <constraint firstAttribute="width" constant="240" id="t4E-Q5-EVg"/>
+                                </constraints>
                             </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pIr-8u-66F">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="CSG-gw-RYO">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="stop" id="Ess-9S-Ab6">
+                                            <connections>
+                                                <action selector="closeDetails:" destination="tjs-lN-jGR" id="njn-cF-jUw"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="iwS-BG-Dsa" firstAttribute="centerX" secondItem="Mup-18-1x5" secondAttribute="centerX" id="3js-u1-xc4"/>
+                            <constraint firstItem="iwS-BG-Dsa" firstAttribute="trailing" secondItem="qSz-xU-9Ij" secondAttribute="trailing" id="MRP-7G-sYV"/>
+                            <constraint firstItem="iwS-BG-Dsa" firstAttribute="top" secondItem="Mup-18-1x5" secondAttribute="top" constant="101" id="MV9-KM-7VS"/>
+                            <constraint firstItem="iwS-BG-Dsa" firstAttribute="leading" secondItem="V8r-A7-RrJ" secondAttribute="leading" constant="67" id="QhA-dq-MeF"/>
+                            <constraint firstItem="iwS-BG-Dsa" firstAttribute="leading" secondItem="qSz-xU-9Ij" secondAttribute="leading" id="lAE-Ta-biS"/>
                             <constraint firstItem="qSz-xU-9Ij" firstAttribute="top" secondItem="iwS-BG-Dsa" secondAttribute="bottom" constant="50" id="sX8-zD-T5e"/>
-                            <constraint firstItem="iwS-BG-Dsa" firstAttribute="top" secondItem="kfR-h8-rTz" secondAttribute="bottom" constant="50" id="xaU-Ud-DSs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="V8r-A7-RrJ"/>
                     </view>
                     <connections>
-                        <outlet property="description" destination="iwS-BG-Dsa" id="yks-ru-e1R"/>
-                        <outlet property="image" destination="qSz-xU-9Ij" id="nHH-jD-ckN"/>
                         <outlet property="locationDesc" destination="iwS-BG-Dsa" id="0MT-Qu-hl0"/>
                         <outlet property="locationImage" destination="qSz-xU-9Ij" id="dHh-bZ-KDg"/>
-                        <outlet property="locationTitle" destination="kfR-h8-rTz" id="QXS-16-I00"/>
-                        <outlet property="title" destination="kfR-h8-rTz" id="bEg-pd-QQu"/>
+                        <outlet property="navigationBar" destination="pIr-8u-66F" id="WfG-Jn-AXr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pC7-RD-sJP" userLabel="First Responder" sceneMemberID="firstResponder"/>

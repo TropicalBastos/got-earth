@@ -21,6 +21,7 @@ class MainViewController: UIViewController {
     var globe: SCNNode!
     var lastScaleFactor: CGFloat = 0
     var zoomInComplete: Bool = false
+    var detailsController: DetailsViewController? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -152,8 +153,15 @@ class MainViewController: UIViewController {
                 let bundle = StringBundle(locale: "en")
                 guard let nodeWithKey = bundle.getNodeWithKey(node: tappedNode) else { return }
                 let locationData = bundle.getByKey(nodeWithKey.name!) as! [String : String]
+
                 // now switch to the details view controller
-                print(locationData)
+                if (self.detailsController == nil) {
+                    self.detailsController = storyboard?.instantiateViewController(withIdentifier: "detailsViewController") as? DetailsViewController
+                }
+                
+                detailsController!.locationTitleString = locationData["title"]
+                detailsController!.locationDescString = locationData["description"]
+                present(detailsController!, animated: true, completion: nil)
             }
         }
     }
