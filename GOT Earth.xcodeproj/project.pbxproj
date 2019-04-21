@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2ED390226BE96D000CF2BC /* StringBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ED38F226BE96D000CF2BC /* StringBundle.swift */; };
 		3E32F3EB22667F03002A8983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32F3EA22667F03002A8983 /* AppDelegate.swift */; };
 		3E32F3ED22667F03002A8983 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E32F3EC22667F03002A8983 /* art.scnassets */; };
 		3E32F3EF22667F03002A8983 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32F3EE22667F03002A8983 /* MainViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E2ED38F226BE96D000CF2BC /* StringBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringBundle.swift; sourceTree = "<group>"; };
 		3E32F3E722667F03002A8983 /* GOT Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GOT Earth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E32F3EA22667F03002A8983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E32F3EC22667F03002A8983 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				3EF75E6922696FD5001A1ED5 /* resources */,
 				3EF75E6622696F76001A1ED5 /* locale */,
 				3E32F3FE2266B2E5002A8983 /* AnimationUtils.swift */,
+				3E2ED38F226BE96D000CF2BC /* StringBundle.swift */,
 				3E32F3EA22667F03002A8983 /* AppDelegate.swift */,
 				3E32F3EC22667F03002A8983 /* art.scnassets */,
 				3E32F3EE22667F03002A8983 /* MainViewController.swift */,
@@ -167,6 +170,7 @@
 			files = (
 				3E32F3EF22667F03002A8983 /* MainViewController.swift in Sources */,
 				3E32F3EB22667F03002A8983 /* AppDelegate.swift in Sources */,
+				3E2ED390226BE96D000CF2BC /* StringBundle.swift in Sources */,
 				3E32F3FF2266B2E5002A8983 /* AnimationUtils.swift in Sources */,
 				3EF75E6522696329001A1ED5 /* DetailsViewController.swift in Sources */,
 			);

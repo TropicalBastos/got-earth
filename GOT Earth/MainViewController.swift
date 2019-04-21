@@ -80,8 +80,10 @@ class MainViewController: UIViewController {
         // add a tap gesture recognizer
         let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePan))
         let pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(handlePinch))
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap))
         scnView.addGestureRecognizer(panGesture)
         scnView.addGestureRecognizer(pinchGesture)
+        scnView.addGestureRecognizer(tapGesture)
     }
     
     @objc
@@ -137,9 +139,23 @@ class MainViewController: UIViewController {
             cameraNode.position.z = 100
         }
         
-        print("Scale: \(scale)")
-        
         return
+    }
+    
+    @objc
+    func handleTap(_ gesture: UITapGestureRecognizer) {
+        if (gesture.state == .ended) {
+            let location = gesture.location(in: self.view)
+            let hits = (self.view as! SCNView).hitTest(location, options: nil)
+            if (!hits.isEmpty) {
+                guard let tappedNode = hits.first?.node else { return }
+                let bundle = StringBundle(locale: "en")
+                guard let nodeWithKey = bundle.getNodeWithKey(node: tappedNode) else { return }
+                let locationData = bundle.getByKey(nodeWithKey.name!) as! [String : String]
+                // now switch to the details view controller
+                print(locationData)
+            }
+        }
     }
     
     override var shouldAutorotate: Bool {
