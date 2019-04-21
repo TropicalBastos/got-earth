@@ -13,19 +13,32 @@ class DetailsViewController: UIViewController {
     
     @IBOutlet weak var navigationBar: UINavigationBar!
     @IBOutlet weak var locationDesc: UITextView!
-    @IBOutlet weak var locationImage: UIImageView!
     
     var locationTitleString: String?
     var locationDescString: String?
     var locationImageUri: String?
+    var primaryFont: UIFont?
+    var secondaryFont: UIFont?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // set fonts
+        primaryFont = UIFont(name: "GodOfWar", size: 18)
+        secondaryFont = UIFont(name: "Work Sans SemiBold", size: 14)
+        
         navigationBar.topItem?.title = locationTitleString
+        navigationBar.titleTextAttributes =
+            [NSAttributedStringKey.foregroundColor: UIColor.white,
+             NSAttributedStringKey.font: primaryFont!]
+        
         locationDesc.text = locationDescString
-        // Do any additional setup after loading the view.
+        locationDesc.font = secondaryFont
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        locationDesc.layoutIfNeeded()
     }
 
     override func didReceiveMemoryWarning() {

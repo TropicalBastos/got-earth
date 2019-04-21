@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E00F535226D01F20013D8F5 /* WorkSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E00F534226D01F20013D8F5 /* WorkSans-SemiBold.ttf */; };
 		3E2ED390226BE96D000CF2BC /* StringBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ED38F226BE96D000CF2BC /* StringBundle.swift */; };
+		3E2ED392226CAB87000CF2BC /* GODOFWAR.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3E2ED391226CAB87000CF2BC /* GODOFWAR.TTF */; };
 		3E32F3EB22667F03002A8983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32F3EA22667F03002A8983 /* AppDelegate.swift */; };
 		3E32F3ED22667F03002A8983 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E32F3EC22667F03002A8983 /* art.scnassets */; };
 		3E32F3EF22667F03002A8983 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32F3EE22667F03002A8983 /* MainViewController.swift */; };
@@ -20,7 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E00F534226D01F20013D8F5 /* WorkSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		3E2ED38F226BE96D000CF2BC /* StringBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringBundle.swift; sourceTree = "<group>"; };
+		3E2ED391226CAB87000CF2BC /* GODOFWAR.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = GODOFWAR.TTF; path = ../../../resources/fonts/GODOFWAR.TTF; sourceTree = "<group>"; };
 		3E32F3E722667F03002A8983 /* GOT Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GOT Earth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E32F3EA22667F03002A8983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E32F3EC22667F03002A8983 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 		3EF75E6922696FD5001A1ED5 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				3E2ED391226CAB87000CF2BC /* GODOFWAR.TTF */,
+				3E00F534226D01F20013D8F5 /* WorkSans-SemiBold.ttf */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EF75E6822696F9A001A1ED5 /* en.json in Resources */,
+				3E2ED392226CAB87000CF2BC /* GODOFWAR.TTF in Resources */,
+				3E00F535226D01F20013D8F5 /* WorkSans-SemiBold.ttf in Resources */,
 				3E32F3ED22667F03002A8983 /* art.scnassets in Resources */,
 				3E32F3F722667F04002A8983 /* LaunchScreen.storyboard in Resources */,
 				3E32F3F422667F04002A8983 /* Assets.xcassets in Resources */,
