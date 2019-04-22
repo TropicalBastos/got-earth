@@ -14,6 +14,7 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var navigationBar: UINavigationBar!
     @IBOutlet weak var locationDesc: UITextView!
     @IBOutlet weak var mainImage: UIImageView!
+    @IBOutlet weak var scrollView: UIScrollView!
     
     var locationTitleString: String?
     var locationDescString: String?

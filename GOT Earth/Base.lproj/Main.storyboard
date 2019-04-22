@@ -111,6 +111,7 @@
                         <outlet property="locationDesc" destination="iwS-BG-Dsa" id="0MT-Qu-hl0"/>
                         <outlet property="mainImage" destination="qON-hq-bfT" id="gSQ-2X-IiE"/>
                         <outlet property="navigationBar" destination="pIr-8u-66F" id="WfG-Jn-AXr"/>
+                        <outlet property="scrollView" destination="4lx-Ud-Ttd" id="aTM-Kb-fcA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pC7-RD-sJP" userLabel="First Responder" sceneMemberID="firstResponder"/>
