@@ -13,6 +13,7 @@ class DetailsViewController: UIViewController {
     
     @IBOutlet weak var navigationBar: UINavigationBar!
     @IBOutlet weak var locationDesc: UITextView!
+    @IBOutlet weak var mainImage: UIImageView!
     
     var locationTitleString: String?
     var locationDescString: String?
@@ -35,10 +36,31 @@ class DetailsViewController: UIViewController {
         
         locationDesc.text = locationDescString
         locationDesc.font = secondaryFont
+        if (locationImageUri != nil) {
+            let imageUrl = Bundle.main.url(forResource: locationImageUri, withExtension: "png")
+            let data = try? Data(contentsOf: imageUrl!)
+            if let imageData = data {
+                if let image = UIImage(data: imageData) {
+                    mainImage.image = image
+                } else {
+                    mainImage.removeFromSuperview()
+                }
+            } else {
+                mainImage.removeFromSuperview()
+            }
+        } else {
+            mainImage.removeFromSuperview()
+        }
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        locationDesc.layoutIfNeeded()
+    override func viewDidLayoutSubviews() {
+        let contentSize = locationDesc.sizeThatFits(locationDesc.bounds.size)
+        var frame = locationDesc.frame
+        frame.size.height = contentSize.height
+        locationDesc.frame = frame
+        
+        let aspectRatioTextViewConstraint = NSLayoutConstraint(item: locationDesc, attribute: .height, relatedBy: .equal, toItem: locationDesc, attribute: .width, multiplier: locationDesc.bounds.height/locationDesc.bounds.width, constant: 1)
+        locationDesc.addConstraint(aspectRatioTextViewConstraint)
     }
 
     override func didReceiveMemoryWarning() {

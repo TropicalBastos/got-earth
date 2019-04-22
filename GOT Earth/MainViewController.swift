@@ -161,6 +161,7 @@ class MainViewController: UIViewController {
                 
                 detailsController!.locationTitleString = locationData["title"]
                 detailsController!.locationDescString = locationData["description"]
+                detailsController!.locationImageUri = locationData["image"]
                 present(detailsController!, animated: true, completion: nil)
             }
         }
