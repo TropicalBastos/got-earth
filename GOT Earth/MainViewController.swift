@@ -9,6 +9,7 @@
 import UIKit
 import QuartzCore
 import SceneKit
+import SpriteKit
 
 class MainViewController: UIViewController {
     
@@ -21,6 +22,7 @@ class MainViewController: UIViewController {
     var globe: SCNNode!
     var lastScaleFactor: CGFloat = 0
     var zoomInComplete: Bool = false
+    var hudScene: HUDOverlay!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -84,6 +86,8 @@ class MainViewController: UIViewController {
         scnView.addGestureRecognizer(panGesture)
         scnView.addGestureRecognizer(pinchGesture)
         scnView.addGestureRecognizer(tapGesture)
+        
+        setupHUD()
     }
     
     @objc
@@ -182,6 +186,12 @@ class MainViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Release any cached data, images, etc that aren't in use.
+    }
+    
+    func setupHUD() {
+        let size = CGSize(width: self.view.bounds.width, height: self.view.bounds.height)
+        hudScene = HUDOverlay(size: size)
+        (self.view as! SCNView).overlaySKScene = hudScene
     }
 
 }
