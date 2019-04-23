@@ -19,6 +19,7 @@
 		3E32F3F722667F04002A8983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E32F3F522667F04002A8983 /* LaunchScreen.storyboard */; };
 		3E32F3FF2266B2E5002A8983 /* AnimationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32F3FE2266B2E5002A8983 /* AnimationUtils.swift */; };
 		3E4FB611226E8E2E007B7023 /* kings_landing.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4FB610226E8E2E007B7023 /* kings_landing.png */; };
+		3E4FB613226E9432007B7023 /* braavos.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4FB612226E9431007B7023 /* braavos.png */; };
 		3EF75E6522696329001A1ED5 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF75E6422696329001A1ED5 /* DetailsViewController.swift */; };
 		3EF75E6822696F9A001A1ED5 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EF75E6722696F9A001A1ED5 /* en.json */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		3E32F3F822667F04002A8983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E32F3FE2266B2E5002A8983 /* AnimationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUtils.swift; sourceTree = "<group>"; };
 		3E4FB610226E8E2E007B7023 /* kings_landing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kings_landing.png; sourceTree = "<group>"; };
+		3E4FB612226E9431007B7023 /* braavos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = braavos.png; sourceTree = "<group>"; };
 		3EF75E6422696329001A1ED5 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		3EF75E6722696F9A001A1ED5 /* en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 		3EF75E6922696FD5001A1ED5 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				3E4FB612226E9431007B7023 /* braavos.png */,
 				3E4FB610226E8E2E007B7023 /* kings_landing.png */,
 				3E00F538226D212C0013D8F5 /* winterfell.png */,
 				3E2ED391226CAB87000CF2BC /* GODOFWAR.TTF */,
@@ -165,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4FB613226E9432007B7023 /* braavos.png in Resources */,
 				3EF75E6822696F9A001A1ED5 /* en.json in Resources */,
 				3E4FB611226E8E2E007B7023 /* kings_landing.png in Resources */,
 				3E2ED392226CAB87000CF2BC /* GODOFWAR.TTF in Resources */,
