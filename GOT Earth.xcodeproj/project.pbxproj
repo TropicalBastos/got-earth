@@ -21,6 +21,11 @@
 		3E4FB611226E8E2E007B7023 /* kings_landing.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4FB610226E8E2E007B7023 /* kings_landing.png */; };
 		3E4FB613226E9432007B7023 /* braavos.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4FB612226E9431007B7023 /* braavos.png */; };
 		3E4FB615226E9E77007B7023 /* HUDOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4FB614226E9E77007B7023 /* HUDOverlay.swift */; };
+		3EE3BFD3226FE04A008AA9F3 /* castle_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD2226FE04A008AA9F3 /* castle_black.png */; };
+		3EE3BFD5226FE78E008AA9F3 /* highgarden.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD4226FE78D008AA9F3 /* highgarden.png */; };
+		3EE3BFD8226FE9B3008AA9F3 /* sunspear.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD6226FE9B3008AA9F3 /* sunspear.png */; };
+		3EE3BFD9226FE9B3008AA9F3 /* the_eyrie.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD7226FE9B3008AA9F3 /* the_eyrie.png */; };
+		3EE3BFDB226FEA2C008AA9F3 /* harrenhal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFDA226FEA2C008AA9F3 /* harrenhal.png */; };
 		3EF75E6522696329001A1ED5 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF75E6422696329001A1ED5 /* DetailsViewController.swift */; };
 		3EF75E6822696F9A001A1ED5 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EF75E6722696F9A001A1ED5 /* en.json */; };
 /* End PBXBuildFile section */
@@ -42,6 +47,11 @@
 		3E4FB610226E8E2E007B7023 /* kings_landing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kings_landing.png; sourceTree = "<group>"; };
 		3E4FB612226E9431007B7023 /* braavos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = braavos.png; sourceTree = "<group>"; };
 		3E4FB614226E9E77007B7023 /* HUDOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDOverlay.swift; sourceTree = "<group>"; };
+		3EE3BFD2226FE04A008AA9F3 /* castle_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castle_black.png; sourceTree = "<group>"; };
+		3EE3BFD4226FE78D008AA9F3 /* highgarden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highgarden.png; sourceTree = "<group>"; };
+		3EE3BFD6226FE9B3008AA9F3 /* sunspear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunspear.png; sourceTree = "<group>"; };
+		3EE3BFD7226FE9B3008AA9F3 /* the_eyrie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_eyrie.png; sourceTree = "<group>"; };
+		3EE3BFDA226FEA2C008AA9F3 /* harrenhal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harrenhal.png; sourceTree = "<group>"; };
 		3EF75E6422696329001A1ED5 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		3EF75E6722696F9A001A1ED5 /* en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +114,11 @@
 		3EF75E6922696FD5001A1ED5 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				3EE3BFDA226FEA2C008AA9F3 /* harrenhal.png */,
+				3EE3BFD6226FE9B3008AA9F3 /* sunspear.png */,
+				3EE3BFD7226FE9B3008AA9F3 /* the_eyrie.png */,
+				3EE3BFD4226FE78D008AA9F3 /* highgarden.png */,
+				3EE3BFD2226FE04A008AA9F3 /* castle_black.png */,
 				3E4FB612226E9431007B7023 /* braavos.png */,
 				3E4FB610226E8E2E007B7023 /* kings_landing.png */,
 				3E00F538226D212C0013D8F5 /* winterfell.png */,
@@ -171,14 +186,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE3BFDB226FEA2C008AA9F3 /* harrenhal.png in Resources */,
 				3E4FB613226E9432007B7023 /* braavos.png in Resources */,
 				3EF75E6822696F9A001A1ED5 /* en.json in Resources */,
+				3EE3BFD5226FE78E008AA9F3 /* highgarden.png in Resources */,
 				3E4FB611226E8E2E007B7023 /* kings_landing.png in Resources */,
 				3E2ED392226CAB87000CF2BC /* GODOFWAR.TTF in Resources */,
+				3EE3BFD3226FE04A008AA9F3 /* castle_black.png in Resources */,
 				3E00F539226D212C0013D8F5 /* winterfell.png in Resources */,
 				3E00F535226D01F20013D8F5 /* WorkSans-SemiBold.ttf in Resources */,
+				3EE3BFD9226FE9B3008AA9F3 /* the_eyrie.png in Resources */,
 				3E32F3ED22667F03002A8983 /* art.scnassets in Resources */,
 				3E32F3F722667F04002A8983 /* LaunchScreen.storyboard in Resources */,
+				3EE3BFD8226FE9B3008AA9F3 /* sunspear.png in Resources */,
 				3E32F3F422667F04002A8983 /* Assets.xcassets in Resources */,
 				3E32F3F222667F03002A8983 /* Main.storyboard in Resources */,
 			);

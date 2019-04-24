@@ -16,5 +16,35 @@
         "title": "Braavos",
         "description": "Braavos is one of the Free Cities located to the east of Westeros. It is the northern-most, the richest, and arguably the most powerful of the Free Cities. Described as a city of seafarers and master swordsmen, Braavos consists of hundreds of tiny islands connected by stone bridges. Its main landmarks include the Titan of Braavos, the House of Black and White and the city's famed Iron Bank.\n\nThe people of Braavos are known as Braavosi.",
         "image": "braavos"
+    },
+    
+    "harrenhal": {
+        "title": "Harrenhal",
+        "description": "Harrenhal is a huge castle, the largest one in all of Westeros, though it is also the most ill-omened. It is located on the northern shore of the Gods Eye lake at the heart of the Riverlands, south of the River Trident and northwest of King's Landing.",
+        "image": "harrenhal"
+    },
+    
+    "castle_black": {
+        "title": "Castle Black",
+        "description": "Castle Black is the primary headquarters and redoubt of the Night's Watch. It is located roughly halfway along the length of the Wall on its southern side, at the northern end of the Kingsroad. It is a dark and chilling home to its garrison.\nCastle Black is one of only three manned castles left on the Wall along with Eastwatch-by-the-Sea and The Shadow Tower. There are nineteen castles along the Wall, but as their numbers fell over the centuries, the Night's Watch had to abandon sixteen of them. Castle Black is located between the unmanned castles of Queensgate and Oakenshield.\n\nCastle Black has a sept, but no Godswood. Those who are followers of the Old Gods of the Forest must travel a mile north of the Wall and into the Haunted Forest to take their vows before a heart tree.\n\nAfter learning of the breaching of the Wall, Jon Snow orders the remaining castles on the Wall be abandoned and for their garrisons to come to Winterfell.",
+        "image": "castle_black"
+    },
+    
+    "highgarden": {
+        "title": "Highgarden",
+        "description": "Highgarden was the seat of House Tyrell and the regional capital of the Reach. Located on the banks of the river Mander, Highgarden sits astride the Roseroad, a major thoroughfare linking Oldtown and King's Landing. Highgarden also forms the southern terminus of the the Searoad, which leads to Lannisport. As King's Landing, Oldtown, and Lannisport are the first, second, and third largest cities in the realm, heavy trade and traffic across a large swath of southern Westeros ultimately passes through Highgarden.\n\nThe golden roses and green fields that surround Highgarden serves as the inspiration for the Tyrell sigil and heraldry.\n\nIn Tyrell possession since Aegon's Conquest, more than three centuries ago, Highgarden was captured and sacked by forces of House Lannister and House Tyrell's formerly loyal vassals House Tarly, with its resources plundered, in the name of Queen Cersei Lannister. With the death of Lady Olenna Tyrell, the castle's ownership is uncertain.",
+        "image": "highgarden"
+    },
+    
+    "sunspear": {
+        "title": "Sunspear",
+        "description": "Sunspear is the capital of Dorne, southernmost of the Seven Kingdoms, located in the far southeast of the continent on the Summer Sea. It consists of a strong, fortified castle and a town that sprawls around it. It is a town built largely of mud and straw. The town's largest structure is Spear Tower, a 150-feet structure with a pinnacle of shining steel.\n\nThe castle was the seat of House Martell, Princes of Dorne, until the family was legally wiped out by Ellaria Sand and the three eldest Sand Snakes, who seized power through a coup. With the latter dead and the former imprisoned for life in King's Landing following a naval assault, the castle's ownership is uncertain.",
+        "image": "sunspear"
+    },
+    
+    "the_eyrie": {
+        "title": "The Eyrie",
+        "description": "The Eyrie is the principal stronghold of House Arryn. It is located in the Vale of Arryn near the east coast of Westeros. The Eyrie straddles the top of a peak in the Mountains of the Moon several thousand feet above the valley floor below. It is approached by a narrow causeway and road. Those who would approach the Eyrie must pass through three way-castles guarding the ascent - and then, must proceed in single file, making them very vulnerable to archers. For these reasons, the Eyrie is considered impregnable to any attack that does not involve dragons, and its defenses have never been overcome. It is currently the seat of Robin Arryn – the Warden of the East.\n\nThe High Hall of the Eyrie is the main audience chamber, where the Lord of the Vale greets visitors from a throne made of weirwood. A notable feature of the chamber is the moon door, a hatch built into the floor through which people can fall to the floor of the Vale far below. Being thrown through the moon door is the preferred method of execution at the Eyrie.\n\nPrisoners at the Eyrie are incarcerated in the sky cells, cells which are open on one side to the air. There is a very slight slope in the cells, and prisoners must be careful not to roll out of the cell in their sleep and plummet to their deaths.",
+        "image": "the_eyrie"
     }
 }

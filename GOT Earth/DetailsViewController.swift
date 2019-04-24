@@ -43,15 +43,23 @@ class DetailsViewController: UIViewController {
             if let imageData = data {
                 if let image = UIImage(data: imageData) {
                     mainImage.image = image
+                    locationDesc.topAnchor.constraint(equalTo: mainImage.bottomAnchor, constant: 5).isActive = true
+                    self.view.layoutSubviews()
                 } else {
-                    mainImage.removeFromSuperview()
+                    organizeViewWithoutImage()
                 }
             } else {
-                mainImage.removeFromSuperview()
+                organizeViewWithoutImage()
             }
         } else {
-            mainImage.removeFromSuperview()
+            organizeViewWithoutImage()
         }
+    }
+    
+    func organizeViewWithoutImage() {
+        mainImage.removeFromSuperview()
+        locationDesc.topAnchor.constraint(equalTo: navigationBar.bottomAnchor, constant: 20).isActive = true
+        self.view.layoutSubviews()
     }
     
     override func viewDidLayoutSubviews() {
