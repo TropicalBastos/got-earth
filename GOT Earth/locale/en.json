@@ -46,5 +46,35 @@
         "title": "The Eyrie",
         "description": "The Eyrie is the principal stronghold of House Arryn. It is located in the Vale of Arryn near the east coast of Westeros. The Eyrie straddles the top of a peak in the Mountains of the Moon several thousand feet above the valley floor below. It is approached by a narrow causeway and road. Those who would approach the Eyrie must pass through three way-castles guarding the ascent - and then, must proceed in single file, making them very vulnerable to archers. For these reasons, the Eyrie is considered impregnable to any attack that does not involve dragons, and its defenses have never been overcome. It is currently the seat of Robin Arryn – the Warden of the East.\n\nThe High Hall of the Eyrie is the main audience chamber, where the Lord of the Vale greets visitors from a throne made of weirwood. A notable feature of the chamber is the moon door, a hatch built into the floor through which people can fall to the floor of the Vale far below. Being thrown through the moon door is the preferred method of execution at the Eyrie.\n\nPrisoners at the Eyrie are incarcerated in the sky cells, cells which are open on one side to the air. There is a very slight slope in the cells, and prisoners must be careful not to roll out of the cell in their sleep and plummet to their deaths.",
         "image": "the_eyrie"
+    },
+    
+    "riverrun": {
+        "title": "Riverrun",
+        "description": "Riverrun is the former seat of House Tully, which is now occupied by its new lawful rulers House Frey. It is a large castle located in the central-western part of the Riverlands. It sits at the point where the Red Fork of the Trident River is joined by its major tributary, the Tumblestone River flowing out of the west. In times of danger, sluice gates can be opened to flood a channel cut to the west of the castle, turning Riverrun into an island. Its walls rise sheer from the waters and its towers command the opposite shores, making assaulting it almost impossible without huge casualties.",
+        "image": "riverrun"
+    },
+    
+    "pyke": {
+        "title": "Pyke",
+        "description": "Pyke is the stronghold and seat of House Greyjoy, located on the island of the same name, which is one of the seven major Iron Islands. The castle is the regional capital of the Iron Islands as a whole. Pyke is an ancient stronghold and the cliff it was built on has been eroded by the sea leaving the towers standing on stone stacks. The towers are connected by swaying rope bridges. The rocky moss covered stone at its base is not suitable for ships landing so traffic to the island flows through the nearby harbor town Lordsport. It is currently the seat of Euron Greyjoy – the King of the Iron Islands.\n\n'Pyke' is also the name given to bastards born on the Iron Islands.",
+        "image": "pyke"
+    },
+    
+    "oldtown": {
+        "title": "Oldtown",
+        "description": "Oldtown is the second largest city in the Seven Kingdoms, and by far the oldest major city in Westeros, dating back to the time of the First Men. It is located in the far southwest of the continent, at the mouth of the River Honeywine where it opens into Whispering Sound and the Sunset Sea beyond.\n\nThe major highway known as the Roseroad begins at Oldtown, then runs northeast past Highgarden before finally reaching King's Landing on the east coast. The Searoad also forks off from the Roseroad at Highgarden, going northwest so travelers from Oldtown can reach Lannisport.\n\nOldtown is the seat of House Hightower, who hold fealty to House Tyrell of Highgarden, from the eponymous Hightower. The city is also notable as the site of the Citadel, home of the order of maesters, as well as the Starry Sept, the former center of the Faith of the Seven in Westeros (it has since been supplanted by the Great Sept of Baelor in King's Landing).",
+        "image": "oldtown"
+    },
+    
+    "casterly_rock": {
+        "title": "Castetly Rock",
+        "description": "Casterly Rock is the ancestral stronghold of House Lannister. It is located on the Western coast of Westeros on a rocky promontory overlooking the Sunset Sea. It overlooks the major city of Lannisport. A major goldmine is located under Casterly Rock. It is one of the most productive in the realm and provides House Lannister with their wealth.\n\nAccording to legend, Casterly Rock was found and held by House Casterly after its founder slew a pair of fearsome lions that lived in the gold-filled subterranean cave where the castle would be built upon. They were hoodwinked into giving the Rock to Lann the Clever, a legendary trickster and ancestor of House Lannister, thousands of years ago, during the Age of Heroes.\n\nThe castle was briefly controlled by the Unsullied forces of House Targaryen, whose victory over the Lannister forces was pyrrhic.",
+        "image": "casterly_rock"
+    },
+    
+    "lannisport": {
+        "title": "Lannisport",
+        "description": "Lannisport is a large city located on the west coast of Westeros, on the Sunset Sea just south of Casterly Rock, the seat of House Lannister. A cadet branch of the Lannisters rules the city in the name of Queen Cersei Lannister. It is a bustling seaport.",
+        "image": "lannisport"
     }
 }
