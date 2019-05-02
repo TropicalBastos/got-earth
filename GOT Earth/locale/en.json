@@ -76,5 +76,36 @@
         "title": "Lannisport",
         "description": "Lannisport is a large city located on the west coast of Westeros, on the Sunset Sea just south of Casterly Rock, the seat of House Lannister. A cadet branch of the Lannisters rules the city in the name of Queen Cersei Lannister. It is a bustling seaport.",
         "image": "lannisport"
+    },
+    
+    "the_twins": {
+        "title": "The Twins",
+        "description": "The Twins, sometimes known as the Crossing, is a castle and the seat of House Frey, the Great House of the Riverlands. It consists of two near-identical towers and a fortified bridge over the Green Fork of the River Trident.\n\nThe Twins represents the only crossing point over the Green Fork for hundreds of miles in either direction. It is a major barrier to travelers and merchants traveling from the North to the western Riverlands. It lies directly on the main route from Winterfell to Riverrun. Moving from one castle to the other while avoiding the Twins requires a lengthy detour hundreds of miles to the south or hazardously traversing the bogs and swamps of the Neck to the north. Travelers heading south who cannot pass southwest over the Twins must pass southeast along the Kingsroad.\n\nThe Freys' rise began six hundred years before the events of the series with the building of a stone bridge over the Green Fork. It took three generations to build the Twins, but afterwards they quickly grew wealthy by charging passing travelers for the use of the Crossing. The bridge is a massive arch of smooth grey stone, wide enough for two wagons to pass abreast.",
+        "image": "the_twins"
+    },
+    
+    "dreadfort": {
+        "title": "The Dreadfort",
+        "description": "The Dreadfort is a castle situated in the North. It was the seat of House Bolton, located on the banks of the Weeping Water east of Winterfell. The Dreadfort is ill-omened as the stronghold of House Bolton, who are famed for the flayed skins of their enemies, often rumored to have been kept on display in the castle, including those of several ancient Stark kings. However, if such gruesome trophies ever did exist they have long since been removed or destroyed.\n\nFollowing the Battle of the Bastards, House Bolton has become extinct, leaving the Dreadfort without any ruling lordship. However, House Stark only captured Winterfell from the Boltons. No mention is made of the Dreadfort being captured, so it is possible there is still a Bolton garrison holding the castle in rebellion.",
+        "image": "dreadfort"
+    },
+    
+    "dragonstone": {
+        "title": "Dragonstone",
+        "description": "Dragonstone is the castle that stands upon the eponymous island located in Blackwater Bay. It is the ancestral seat of House Targaryen and was the stronghold of a cadet branch of House Baratheon. It is within the Crownlands, the capital region of the Seven Kingdoms.\n\nAt the time the series begins, it is held for King Robert Baratheon by his brother, Lord Stannis. The Chamber of the Painted Table is inside the castle. The castle was built using advanced Valyrian stonemasonry techniques, long since lost. As a result it has many exotic features unique in all of Westeros, including massive dragon-shaped gargoyles. The entire castle is dominated by dragon motifs and reliefs. Unlike the richly-decorated and extravagant Red Keep in King's Landing, Dragonstone is sparsely decorated and has a rough, austere appearance; its function is as a military base, not as a palace.\n\nThe castle itself is very strong, due to its advanced Valyrian design, which combined with its isolated location make it an ideal redoubt and refuge - for both the Targaryens and Stannis Baratheon. Because of these features and its geographic position, it is extremely difficult to breach and can be held by a relatively small garrison against a vastly larger force.",
+        "image": "dragonstone"
+    },
+    
+    "hardhome": {
+        "title": "Hardhome",
+        "description": "Hardhome was a Free Folk fishing village located beyond the Wall on a sheltered bay along the Shivering Sea, situated at the tip of the large peninsula known as Storrold's Point. Many of the Free Folk who survived the Battle of Castle Black and were not captured by the forces of Stannis Baratheon fled to Hardhome.",
+        "image": "hardhome"
+    },
+    
+    "eastwatch": {
+        "title": "Eastwatch-by-the-Sea",
+        "description": "Eastwatch-by-the-Sea, or Eastwatch, was a castle and port located at the far eastern end of the Wall, where the Wall drops into an inlet of the Shivering Sea called the Bay of Seals. There are nineteen castles along the Wall, but as their numbers fell over the centuries, the Night's Watch had to abandon sixteen of them. Eastwatch was one of only three manned castles left on the Wall during the War of the Five Kings, along with Castle Black and The Shadow Tower.\n\nAs the only castle on the Wall located on the sea, Eastwatch served as the port for the Night's Watch. The capital city of King's Landing, as well as the cities of White Harbor and Gulltown, are also located on the eastern coast of the continent, so it was relatively easy for provisions and news to reach the castle.\n\nEastwatch was destroyed when the Night King attacked and breached the portion of the Wall in which the castle was built using the undead dragon Viserion.",
+        "image": "eastwatch"
     }
+    
 }
