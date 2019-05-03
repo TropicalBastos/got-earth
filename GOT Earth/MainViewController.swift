@@ -96,13 +96,8 @@ class MainViewController: UIViewController {
         let widthRatio = (translation.x / self.view.frame.size.width) + lastWidthRatio
         let heightRatio = (translation.y / self.view.frame.size.height) + lastHeightRatio
         
-        var eulerY = Float(-2 * Double.pi) * Float(widthRatio)
-        var eulerX = Float(-Double.pi) * Float(heightRatio)
-        
-        if (cameraNode.position.z < 20) {
-            eulerY = eulerY * 0.5
-            eulerX = eulerX * 0.5
-        }
+        let eulerY = Float(-2 * Double.pi) * Float(widthRatio)
+        let eulerX = Float(-Double.pi) * Float(heightRatio)
         
         self.cameraOrbit.eulerAngles.y = eulerY
         self.cameraOrbit.eulerAngles.x = eulerX
