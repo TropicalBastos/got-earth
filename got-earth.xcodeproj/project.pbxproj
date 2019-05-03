@@ -90,7 +90,7 @@
 		3E32F3DE22667F03002A8983 = {
 			isa = PBXGroup;
 			children = (
-				3E32F3E922667F03002A8983 /* GOT Earth */,
+				3E32F3E922667F03002A8983 /* got-earth */,
 				3E32F3E822667F03002A8983 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +103,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E32F3E922667F03002A8983 /* GOT Earth */ = {
+		3E32F3E922667F03002A8983 /* got-earth */ = {
 			isa = PBXGroup;
 			children = (
 				3EF75E6922696FD5001A1ED5 /* resources */,
@@ -120,7 +120,7 @@
 				3E32F3F522667F04002A8983 /* LaunchScreen.storyboard */,
 				3E32F3F822667F04002A8983 /* Info.plist */,
 			);
-			path = "GOT Earth";
+			path = "got-earth";
 			sourceTree = "<group>";
 		};
 		3EF75E6622696F76001A1ED5 /* locale */ = {
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E32F3E622667F03002A8983 /* GOT Earth */ = {
+		3E32F3E622667F03002A8983 /* got-earth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E32F3FB22667F04002A8983 /* Build configuration list for PBXNativeTarget "GOT Earth" */;
+			buildConfigurationList = 3E32F3FB22667F04002A8983 /* Build configuration list for PBXNativeTarget "got-earth" */;
 			buildPhases = (
 				3E32F3E322667F03002A8983 /* Sources */,
 				3E32F3E422667F03002A8983 /* Frameworks */,
@@ -173,7 +173,7 @@
 			);
 			dependencies = (
 			);
-			name = "GOT Earth";
+			name = "got-earth";
 			productName = "GOT Earth";
 			productReference = 3E32F3E722667F03002A8983 /* GOT Earth.app */;
 			productType = "com.apple.product-type.application";
@@ -193,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E32F3E222667F03002A8983 /* Build configuration list for PBXProject "GOT Earth" */;
+			buildConfigurationList = 3E32F3E222667F03002A8983 /* Build configuration list for PBXProject "got-earth" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -206,7 +206,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E32F3E622667F03002A8983 /* GOT Earth */,
+				3E32F3E622667F03002A8983 /* got-earth */,
 			);
 		};
 /* End PBXProject section */
@@ -401,13 +401,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "GOT Earth/Info.plist";
+				INFOPLIST_FILE = "got-earth/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tropicalbastos.GOT-Earth";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "GOT Earth";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -418,13 +418,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "GOT Earth/Info.plist";
+				INFOPLIST_FILE = "got-earth/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tropicalbastos.GOT-Earth";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "GOT Earth";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -433,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E32F3E222667F03002A8983 /* Build configuration list for PBXProject "GOT Earth" */ = {
+		3E32F3E222667F03002A8983 /* Build configuration list for PBXProject "got-earth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E32F3F922667F04002A8983 /* Debug */,
@@ -442,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E32F3FB22667F04002A8983 /* Build configuration list for PBXNativeTarget "GOT Earth" */ = {
+		3E32F3FB22667F04002A8983 /* Build configuration list for PBXNativeTarget "got-earth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E32F3FC22667F04002A8983 /* Debug */,
