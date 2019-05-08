@@ -12,6 +12,7 @@ import SpriteKit
 class HUDOverlay : SKScene {
     
     var appTitle: SKLabelNode!
+    var settingsButton: SKSpriteNode!
     
     override init(size: CGSize) {
         super.init(size: size)
@@ -26,7 +27,12 @@ class HUDOverlay : SKScene {
         appTitle.color = UIColor.white
         appTitle.text = "GOT Earth"
         
+        self.settingsButton = SKSpriteNode(imageNamed: Bundle.main.path(forResource: "settings", ofType: "png")!)
+        settingsButton.position.x = CGFloat(30)
+        settingsButton.position.y = posY + CGFloat(10)
+        
         self.addChild(appTitle)
+        self.addChild(settingsButton)
     }
     
     required init?(coder aDecoder: NSCoder) {
