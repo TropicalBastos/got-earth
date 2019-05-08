@@ -33,6 +33,8 @@
 		3EB883812274FE650080B33E /* riverrun.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB883802274FE650080B33E /* riverrun.png */; };
 		3EC4795D22836F42001877FF /* storms_end.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4795C22836F41001877FF /* storms_end.png */; };
 		3EC4796522837AFE001877FF /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4796422837AFE001877FF /* settings.png */; };
+		3EC4796822837FB1001877FF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4796622837FB1001877FF /* SettingsViewController.swift */; };
+		3EC4796922837FB1001877FF /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4796722837FB1001877FF /* SettingsViewController.xib */; };
 		3EE3BFD3226FE04A008AA9F3 /* castle_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD2226FE04A008AA9F3 /* castle_black.png */; };
 		3EE3BFD5226FE78E008AA9F3 /* highgarden.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD4226FE78D008AA9F3 /* highgarden.png */; };
 		3EE3BFD8226FE9B3008AA9F3 /* sunspear.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD6226FE9B3008AA9F3 /* sunspear.png */; };
@@ -71,6 +73,8 @@
 		3EB883802274FE650080B33E /* riverrun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riverrun.png; sourceTree = "<group>"; };
 		3EC4795C22836F41001877FF /* storms_end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storms_end.png; sourceTree = "<group>"; };
 		3EC4796422837AFE001877FF /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		3EC4796622837FB1001877FF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3EC4796722837FB1001877FF /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		3EE3BFD2226FE04A008AA9F3 /* castle_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castle_black.png; sourceTree = "<group>"; };
 		3EE3BFD4226FE78D008AA9F3 /* highgarden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highgarden.png; sourceTree = "<group>"; };
 		3EE3BFD6226FE9B3008AA9F3 /* sunspear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunspear.png; sourceTree = "<group>"; };
@@ -120,6 +124,8 @@
 				3E4FB614226E9E77007B7023 /* HUDOverlay.swift */,
 				3EF75E6422696329001A1ED5 /* DetailsViewController.swift */,
 				3E32F3F022667F03002A8983 /* Main.storyboard */,
+				3EC4796622837FB1001877FF /* SettingsViewController.swift */,
+				3EC4796722837FB1001877FF /* SettingsViewController.xib */,
 				3E32F3F322667F04002A8983 /* Assets.xcassets */,
 				3E32F3F522667F04002A8983 /* LaunchScreen.storyboard */,
 				3E32F3F822667F04002A8983 /* Info.plist */,
@@ -241,6 +247,7 @@
 				3EE3BFD9226FE9B3008AA9F3 /* the_eyrie.png in Resources */,
 				3E67D907227B4354007A95CE /* the_twins in Resources */,
 				3E32F3ED22667F03002A8983 /* art.scnassets in Resources */,
+				3EC4796922837FB1001877FF /* SettingsViewController.xib in Resources */,
 				3E67D901227B434C007A95CE /* dreadfort.png in Resources */,
 				3E32F3F722667F04002A8983 /* LaunchScreen.storyboard in Resources */,
 				3EB8837A2274F8CD0080B33E /* oldtown.png in Resources */,
@@ -261,6 +268,7 @@
 			files = (
 				3E32F3EF22667F03002A8983 /* MainViewController.swift in Sources */,
 				3E32F3EB22667F03002A8983 /* AppDelegate.swift in Sources */,
+				3EC4796822837FB1001877FF /* SettingsViewController.swift in Sources */,
 				3E4FB615226E9E77007B7023 /* HUDOverlay.swift in Sources */,
 				3E2ED390226BE96D000CF2BC /* StringBundle.swift in Sources */,
 				3E32F3FF2266B2E5002A8983 /* AnimationUtils.swift in Sources */,

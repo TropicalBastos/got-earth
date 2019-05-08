@@ -30,9 +30,23 @@ class HUDOverlay : SKScene {
         self.settingsButton = SKSpriteNode(imageNamed: Bundle.main.path(forResource: "settings", ofType: "png")!)
         settingsButton.position.x = CGFloat(30)
         settingsButton.position.y = posY + CGFloat(10)
+        settingsButton.name = "settings"
         
         self.addChild(appTitle)
         self.addChild(settingsButton)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        for touch in (touches) {
+            let positionInScene = touch.location(in: self)
+            let touchedNode = self.atPoint(positionInScene)
+            if let name = touchedNode.name {
+                if name == "settings" {
+                    // TODO
+                    print("settings tapped")
+                }
+            }
+        }
     }
     
     required init?(coder aDecoder: NSCoder) {
