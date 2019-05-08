@@ -10,6 +10,7 @@ import UIKit
 
 class SettingsViewController: UIViewController {
     
+    @IBOutlet weak var closeButton: UIBarButtonItem!
     @IBOutlet weak var navigationBar: UINavigationBar!
     var primaryFont: UIFont!
     var secondaryFont: UIFont!
@@ -23,8 +24,15 @@ class SettingsViewController: UIViewController {
         navigationBar.titleTextAttributes =
             [NSAttributedStringKey.foregroundColor: UIColor.white,
              NSAttributedStringKey.font: primaryFont!]
+        
+        closeButton.action = #selector(closeSettings)
     }
 
+    @objc
+    func closeSettings() {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

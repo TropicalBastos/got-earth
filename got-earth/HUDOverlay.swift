@@ -13,9 +13,12 @@ class HUDOverlay : SKScene {
     
     var appTitle: SKLabelNode!
     var settingsButton: SKSpriteNode!
+    var parentViewController: UIViewController!
     
-    override init(size: CGSize) {
+    init(size: CGSize, parentViewController: UIViewController) {
         super.init(size: size)
+        
+        self.parentViewController = parentViewController
         
         let halfPosX = self.size.width / 2
         let posY = CGFloat(20)
@@ -42,8 +45,8 @@ class HUDOverlay : SKScene {
             let touchedNode = self.atPoint(positionInScene)
             if let name = touchedNode.name {
                 if name == "settings" {
-                    // TODO
-                    print("settings tapped")
+                    let settingsViewController = SettingsViewController()
+                    self.parentViewController.present(settingsViewController, animated: true, completion: nil)
                 }
             }
         }

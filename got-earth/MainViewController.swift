@@ -185,7 +185,7 @@ class MainViewController: UIViewController {
     
     func setupHUD() {
         let size = CGSize(width: self.view.bounds.width, height: self.view.bounds.height)
-        hudScene = HUDOverlay(size: size)
+        hudScene = HUDOverlay(size: size, parentViewController: self)
         (self.view as! SCNView).overlaySKScene = hudScene
     }
 
