@@ -106,6 +106,12 @@
         "title": "Eastwatch-by-the-Sea",
         "description": "Eastwatch-by-the-Sea, or Eastwatch, was a castle and port located at the far eastern end of the Wall, where the Wall drops into an inlet of the Shivering Sea called the Bay of Seals. There are nineteen castles along the Wall, but as their numbers fell over the centuries, the Night's Watch had to abandon sixteen of them. Eastwatch was one of only three manned castles left on the Wall during the War of the Five Kings, along with Castle Black and The Shadow Tower.\n\nAs the only castle on the Wall located on the sea, Eastwatch served as the port for the Night's Watch. The capital city of King's Landing, as well as the cities of White Harbor and Gulltown, are also located on the eastern coast of the continent, so it was relatively easy for provisions and news to reach the castle.\n\nEastwatch was destroyed when the Night King attacked and breached the portion of the Wall in which the castle was built using the undead dragon Viserion.",
         "image": "eastwatch"
+    },
+    
+    "storms_end": {
+        "title": "Storm's End",
+        "description": "Storm's End is the ancestral seat of House Baratheon. Lord Gendry Baratheon is the Lord of Storm's End. Storm's End is a formidable fortress, located on the southeastern coast of Westeros overlooking Shipbreaker Bay.",
+        "image": "storms_end"
     }
     
 }

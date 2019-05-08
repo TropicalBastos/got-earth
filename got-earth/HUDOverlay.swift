@@ -19,8 +19,6 @@ class HUDOverlay : SKScene {
         let halfPosX = self.size.width / 2
         let posY = CGFloat(20)
         
-        print(self.size.height)
-        
         self.appTitle = SKLabelNode(fontNamed: "GodOfWar")
         appTitle.fontSize = 18
         appTitle.position.x = halfPosX

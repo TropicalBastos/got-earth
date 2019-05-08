@@ -31,6 +31,7 @@
 		3EB8837D2274FA770080B33E /* lannisport.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB8837C2274FA770080B33E /* lannisport.png */; };
 		3EB8837F2274FAC40080B33E /* casterly_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB8837E2274FAC40080B33E /* casterly_rock.png */; };
 		3EB883812274FE650080B33E /* riverrun.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB883802274FE650080B33E /* riverrun.png */; };
+		3EC4795D22836F42001877FF /* storms_end.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4795C22836F41001877FF /* storms_end.png */; };
 		3EE3BFD3226FE04A008AA9F3 /* castle_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD2226FE04A008AA9F3 /* castle_black.png */; };
 		3EE3BFD5226FE78E008AA9F3 /* highgarden.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD4226FE78D008AA9F3 /* highgarden.png */; };
 		3EE3BFD8226FE9B3008AA9F3 /* sunspear.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD6226FE9B3008AA9F3 /* sunspear.png */; };
@@ -67,6 +68,7 @@
 		3EB8837C2274FA770080B33E /* lannisport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lannisport.png; sourceTree = "<group>"; };
 		3EB8837E2274FAC40080B33E /* casterly_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casterly_rock.png; sourceTree = "<group>"; };
 		3EB883802274FE650080B33E /* riverrun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riverrun.png; sourceTree = "<group>"; };
+		3EC4795C22836F41001877FF /* storms_end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storms_end.png; sourceTree = "<group>"; };
 		3EE3BFD2226FE04A008AA9F3 /* castle_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castle_black.png; sourceTree = "<group>"; };
 		3EE3BFD4226FE78D008AA9F3 /* highgarden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highgarden.png; sourceTree = "<group>"; };
 		3EE3BFD6226FE9B3008AA9F3 /* sunspear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunspear.png; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				3EE3BFD7226FE9B3008AA9F3 /* the_eyrie.png */,
 				3EB8837E2274FAC40080B33E /* casterly_rock.png */,
 				3EE3BFD4226FE78D008AA9F3 /* highgarden.png */,
+				3EC4795C22836F41001877FF /* storms_end.png */,
 				3EE3BFD2226FE04A008AA9F3 /* castle_black.png */,
 				3E4FB612226E9431007B7023 /* braavos.png */,
 				3EB8837C2274FA770080B33E /* lannisport.png */,
@@ -221,6 +224,7 @@
 				3E4FB613226E9432007B7023 /* braavos.png in Resources */,
 				3EB8837F2274FAC40080B33E /* casterly_rock.png in Resources */,
 				3EF75E6822696F9A001A1ED5 /* en.json in Resources */,
+				3EC4795D22836F42001877FF /* storms_end.png in Resources */,
 				3E67D906227B4354007A95CE /* hardhome.png in Resources */,
 				3EE3BFD5226FE78E008AA9F3 /* highgarden.png in Resources */,
 				3EB883782274F64C0080B33E /* pyke.png in Resources */,
