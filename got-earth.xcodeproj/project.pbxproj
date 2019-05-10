@@ -40,6 +40,8 @@
 		3EE3BFD8226FE9B3008AA9F3 /* sunspear.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD6226FE9B3008AA9F3 /* sunspear.png */; };
 		3EE3BFD9226FE9B3008AA9F3 /* the_eyrie.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD7226FE9B3008AA9F3 /* the_eyrie.png */; };
 		3EE3BFDB226FEA2C008AA9F3 /* harrenhal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFDA226FEA2C008AA9F3 /* harrenhal.png */; };
+		3EE43D2222850D52004182D7 /* ShowLabelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE43D2022850D52004182D7 /* ShowLabelsTableViewCell.swift */; };
+		3EE43D2322850D52004182D7 /* ShowLabelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EE43D2122850D52004182D7 /* ShowLabelsTableViewCell.xib */; };
 		3EF75E6522696329001A1ED5 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF75E6422696329001A1ED5 /* DetailsViewController.swift */; };
 		3EF75E6822696F9A001A1ED5 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EF75E6722696F9A001A1ED5 /* en.json */; };
 /* End PBXBuildFile section */
@@ -80,6 +82,8 @@
 		3EE3BFD6226FE9B3008AA9F3 /* sunspear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunspear.png; sourceTree = "<group>"; };
 		3EE3BFD7226FE9B3008AA9F3 /* the_eyrie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_eyrie.png; sourceTree = "<group>"; };
 		3EE3BFDA226FEA2C008AA9F3 /* harrenhal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harrenhal.png; sourceTree = "<group>"; };
+		3EE43D2022850D52004182D7 /* ShowLabelsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowLabelsTableViewCell.swift; sourceTree = "<group>"; };
+		3EE43D2122850D52004182D7 /* ShowLabelsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowLabelsTableViewCell.xib; sourceTree = "<group>"; };
 		3EF75E6422696329001A1ED5 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		3EF75E6722696F9A001A1ED5 /* en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +130,8 @@
 				3E32F3F022667F03002A8983 /* Main.storyboard */,
 				3EC4796622837FB1001877FF /* SettingsViewController.swift */,
 				3EC4796722837FB1001877FF /* SettingsViewController.xib */,
+				3EE43D2022850D52004182D7 /* ShowLabelsTableViewCell.swift */,
+				3EE43D2122850D52004182D7 /* ShowLabelsTableViewCell.xib */,
 				3E32F3F322667F04002A8983 /* Assets.xcassets */,
 				3E32F3F522667F04002A8983 /* LaunchScreen.storyboard */,
 				3E32F3F822667F04002A8983 /* Info.plist */,
@@ -244,6 +250,7 @@
 				3E00F539226D212C0013D8F5 /* winterfell.png in Resources */,
 				3E00F535226D01F20013D8F5 /* WorkSans-SemiBold.ttf in Resources */,
 				3EC4796522837AFE001877FF /* settings.png in Resources */,
+				3EE43D2322850D52004182D7 /* ShowLabelsTableViewCell.xib in Resources */,
 				3EE3BFD9226FE9B3008AA9F3 /* the_eyrie.png in Resources */,
 				3E67D907227B4354007A95CE /* the_twins in Resources */,
 				3E32F3ED22667F03002A8983 /* art.scnassets in Resources */,
@@ -270,6 +277,7 @@
 				3E32F3EB22667F03002A8983 /* AppDelegate.swift in Sources */,
 				3EC4796822837FB1001877FF /* SettingsViewController.swift in Sources */,
 				3E4FB615226E9E77007B7023 /* HUDOverlay.swift in Sources */,
+				3EE43D2222850D52004182D7 /* ShowLabelsTableViewCell.swift in Sources */,
 				3E2ED390226BE96D000CF2BC /* StringBundle.swift in Sources */,
 				3E32F3FF2266B2E5002A8983 /* AnimationUtils.swift in Sources */,
 				3EF75E6522696329001A1ED5 /* DetailsViewController.swift in Sources */,

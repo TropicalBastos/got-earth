@@ -14,6 +14,7 @@
             <connections>
                 <outlet property="closeButton" destination="TjV-b3-8gh" id="wJX-8y-JZB"/>
                 <outlet property="navigationBar" destination="Vez-Ca-sw6" id="cyX-8p-sl2"/>
+                <outlet property="tableView" destination="BRf-VO-i6c" id="BnH-1D-NoI"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -40,43 +41,37 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G2z-5j-J4h">
                     <rect key="frame" x="20" y="84" width="335" height="563"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Show Westeros" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckd-Kr-opD">
-                            <rect key="frame" x="108" y="15" width="119" height="21"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Show Essos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XS1-sf-gKZ">
-                            <rect key="frame" x="121" y="60" width="92" height="21"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Show Sothoryos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Km-rW-TbV">
-                            <rect key="frame" x="105" y="100" width="125" height="21"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQs-sn-CHH">
-                            <rect key="frame" x="122" y="485" width="92" height="30"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQs-sn-CHH">
+                            <rect key="frame" x="122" y="497" width="92" height="30"/>
                             <state key="normal" title="Unlock Essos">
                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbQ-Gv-eLB">
-                            <rect key="frame" x="107" y="523" width="122" height="30"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbQ-Gv-eLB">
+                            <rect key="frame" x="107" y="547" width="122" height="30"/>
                             <state key="normal" title="Unlock Sothoryos">
                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                         </button>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BRf-VO-i6c">
+                            <rect key="frame" x="0.0" y="0.0" width="335" height="477"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="477" id="dS7-CJ-TLD"/>
+                            </constraints>
+                            <color key="separatorColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </tableView>
                     </subviews>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="dbQ-Gv-eLB" firstAttribute="top" secondItem="IQs-sn-CHH" secondAttribute="bottom" constant="20" id="3iW-MY-q5d"/>
+                        <constraint firstAttribute="trailing" secondItem="BRf-VO-i6c" secondAttribute="trailing" id="A6B-97-4Gv"/>
+                        <constraint firstItem="BRf-VO-i6c" firstAttribute="top" secondItem="G2z-5j-J4h" secondAttribute="top" id="HQ4-uc-uIL"/>
+                        <constraint firstItem="IQs-sn-CHH" firstAttribute="top" secondItem="BRf-VO-i6c" secondAttribute="bottom" constant="20" id="M4b-ve-wGG"/>
+                        <constraint firstItem="dbQ-Gv-eLB" firstAttribute="centerX" secondItem="G2z-5j-J4h" secondAttribute="centerX" id="QAX-hN-cVN"/>
+                        <constraint firstItem="IQs-sn-CHH" firstAttribute="centerX" secondItem="G2z-5j-J4h" secondAttribute="centerX" id="h5A-PJ-rKN"/>
+                        <constraint firstItem="BRf-VO-i6c" firstAttribute="leading" secondItem="G2z-5j-J4h" secondAttribute="leading" id="jt9-iY-HEX"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
