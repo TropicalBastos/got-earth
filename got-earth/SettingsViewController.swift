@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController, UITableViewDataSource {
+class SettingsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     
     @IBOutlet weak var tableView: UITableView!
@@ -16,6 +16,7 @@ class SettingsViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var navigationBar: UINavigationBar!
     var primaryFont: UIFont!
     var secondaryFont: UIFont!
+    let cellSpacingHeight = CGFloat(20)
     
     struct LabelStruct {
         var title : String
@@ -55,21 +56,42 @@ class SettingsViewController: UIViewController, UITableViewDataSource {
     }
     
     func tableViewSetup() {
+        tableView.tableFooterView = UIView()
         tableView.dataSource = self
+        tableView.delegate = self
         tableView.register(UINib(nibName: "ShowLabelsTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "ShowLabelsTableViewCell")
         
         // TODO load prefs and ovveride self.labels data
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return self.labels.count
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?
+    {
+        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.bounds.size.width, height: cellSpacingHeight))
+        headerView.backgroundColor = UIColor.black
+        return headerView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "ShowLabelsTableViewCell", for: indexPath) as! ShowLabelsTableViewCell
         
         cell.label.text = self.labels[indexPath.row].title
+        cell.separatorInset = UIEdgeInsets.zero
+        cell.layoutMargins = UIEdgeInsets.zero
+        cell.backgroundColor = UIColor.black
         return cell
+    }
+    
+    // Set the spacing between sections
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return cellSpacingHeight
     }
 
 }
