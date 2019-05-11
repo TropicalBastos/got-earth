@@ -42,22 +42,22 @@
                     <rect key="frame" x="20" y="84" width="335" height="563"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQs-sn-CHH">
-                            <rect key="frame" x="122" y="497" width="92" height="30"/>
+                            <rect key="frame" x="122" y="463" width="92" height="30"/>
                             <state key="normal" title="Unlock Essos">
                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbQ-Gv-eLB">
-                            <rect key="frame" x="107" y="547" width="122" height="30"/>
+                            <rect key="frame" x="107" y="513" width="122" height="30"/>
                             <state key="normal" title="Unlock Sothoryos">
                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                         </button>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BRf-VO-i6c">
-                            <rect key="frame" x="0.0" y="0.0" width="335" height="477"/>
+                            <rect key="frame" x="0.0" y="0.0" width="335" height="443"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="477" id="dS7-CJ-TLD"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="414" id="AgF-CH-Otg"/>
                             </constraints>
                             <color key="separatorColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -72,6 +72,7 @@
                         <constraint firstItem="dbQ-Gv-eLB" firstAttribute="centerX" secondItem="G2z-5j-J4h" secondAttribute="centerX" id="QAX-hN-cVN"/>
                         <constraint firstItem="IQs-sn-CHH" firstAttribute="centerX" secondItem="G2z-5j-J4h" secondAttribute="centerX" id="h5A-PJ-rKN"/>
                         <constraint firstItem="BRf-VO-i6c" firstAttribute="leading" secondItem="G2z-5j-J4h" secondAttribute="leading" id="jt9-iY-HEX"/>
+                        <constraint firstAttribute="bottom" secondItem="dbQ-Gv-eLB" secondAttribute="bottom" constant="20" id="m37-Jl-Abk"/>
                     </constraints>
                 </view>
             </subviews>
