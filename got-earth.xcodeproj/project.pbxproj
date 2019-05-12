@@ -26,6 +26,9 @@
 		3E67D906227B4354007A95CE /* hardhome.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E67D903227B4354007A95CE /* hardhome.png */; };
 		3E67D907227B4354007A95CE /* the_twins in Resources */ = {isa = PBXBuildFile; fileRef = 3E67D904227B4354007A95CE /* the_twins */; };
 		3E67D909227B435D007A95CE /* dragonstone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E67D908227B435D007A95CE /* dragonstone.png */; };
+		3E72581122879923008DD4E5 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E72580F22879922008DD4E5 /* checked.png */; };
+		3E72581222879923008DD4E5 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E72581022879923008DD4E5 /* unchecked.png */; };
+		3E7258142287997F008DD4E5 /* disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7258132287997F008DD4E5 /* disabled.png */; };
 		3EB883782274F64C0080B33E /* pyke.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB883772274F64C0080B33E /* pyke.png */; };
 		3EB8837A2274F8CD0080B33E /* oldtown.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB883792274F8CD0080B33E /* oldtown.png */; };
 		3EB8837D2274FA770080B33E /* lannisport.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB8837C2274FA770080B33E /* lannisport.png */; };
@@ -68,6 +71,9 @@
 		3E67D903227B4354007A95CE /* hardhome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hardhome.png; sourceTree = "<group>"; };
 		3E67D904227B4354007A95CE /* the_twins */ = {isa = PBXFileReference; lastKnownFileType = file; path = the_twins; sourceTree = "<group>"; };
 		3E67D908227B435D007A95CE /* dragonstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonstone.png; sourceTree = "<group>"; };
+		3E72580F22879922008DD4E5 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		3E72581022879923008DD4E5 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		3E7258132287997F008DD4E5 /* disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disabled.png; sourceTree = "<group>"; };
 		3EB883772274F64C0080B33E /* pyke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pyke.png; sourceTree = "<group>"; };
 		3EB883792274F8CD0080B33E /* oldtown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oldtown.png; sourceTree = "<group>"; };
 		3EB8837C2274FA770080B33E /* lannisport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lannisport.png; sourceTree = "<group>"; };
@@ -163,9 +169,12 @@
 				3E4FB610226E8E2E007B7023 /* kings_landing.png */,
 				3E00F538226D212C0013D8F5 /* winterfell.png */,
 				3EB883772274F64C0080B33E /* pyke.png */,
+				3E72580F22879922008DD4E5 /* checked.png */,
+				3E72581022879923008DD4E5 /* unchecked.png */,
 				3EB883792274F8CD0080B33E /* oldtown.png */,
 				3EC4796422837AFE001877FF /* settings.png */,
 				3E67D902227B4354007A95CE /* eastwatch.png */,
+				3E7258132287997F008DD4E5 /* disabled.png */,
 				3E67D903227B4354007A95CE /* hardhome.png */,
 				3E67D904227B4354007A95CE /* the_twins */,
 				3E67D908227B435D007A95CE /* dragonstone.png */,
@@ -240,6 +249,7 @@
 				3EB8837F2274FAC40080B33E /* casterly_rock.png in Resources */,
 				3EF75E6822696F9A001A1ED5 /* en.json in Resources */,
 				3EC4795D22836F42001877FF /* storms_end.png in Resources */,
+				3E72581222879923008DD4E5 /* unchecked.png in Resources */,
 				3E67D906227B4354007A95CE /* hardhome.png in Resources */,
 				3EE3BFD5226FE78E008AA9F3 /* highgarden.png in Resources */,
 				3EB883782274F64C0080B33E /* pyke.png in Resources */,
@@ -249,12 +259,14 @@
 				3EE3BFD3226FE04A008AA9F3 /* castle_black.png in Resources */,
 				3E00F539226D212C0013D8F5 /* winterfell.png in Resources */,
 				3E00F535226D01F20013D8F5 /* WorkSans-SemiBold.ttf in Resources */,
+				3E72581122879923008DD4E5 /* checked.png in Resources */,
 				3EC4796522837AFE001877FF /* settings.png in Resources */,
 				3EE43D2322850D52004182D7 /* ShowLabelsTableViewCell.xib in Resources */,
 				3EE3BFD9226FE9B3008AA9F3 /* the_eyrie.png in Resources */,
 				3E67D907227B4354007A95CE /* the_twins in Resources */,
 				3E32F3ED22667F03002A8983 /* art.scnassets in Resources */,
 				3EC4796922837FB1001877FF /* SettingsViewController.xib in Resources */,
+				3E7258142287997F008DD4E5 /* disabled.png in Resources */,
 				3E67D901227B434C007A95CE /* dreadfort.png in Resources */,
 				3E32F3F722667F04002A8983 /* LaunchScreen.storyboard in Resources */,
 				3EB8837A2274F8CD0080B33E /* oldtown.png in Resources */,

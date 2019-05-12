@@ -16,7 +16,7 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet weak var navigationBar: UINavigationBar!
     var primaryFont: UIFont!
     var secondaryFont: UIFont!
-    let cellSpacingHeight = CGFloat(20)
+    let cellSpacingHeight = CGFloat(10)
     
     struct LabelStruct {
         var title : String
@@ -61,6 +61,8 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
         tableView.delegate = self
         tableView.register(UINib(nibName: "ShowLabelsTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "ShowLabelsTableViewCell")
         
+        tableView.allowsSelection = false
+        
         // TODO load prefs and ovveride self.labels data
     }
     
@@ -82,10 +84,20 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "ShowLabelsTableViewCell", for: indexPath) as! ShowLabelsTableViewCell
         
-        cell.label.text = self.labels[indexPath.row].title
+        let accumulatedRow = indexPath.section * (indexPath.row + 1)
+        cell.label.text = self.labels[accumulatedRow].title
+        cell.isDisabled = self.labels[accumulatedRow].disabled
+        cell.isChecked = self.labels[accumulatedRow].checked
+        
         cell.separatorInset = UIEdgeInsets.zero
         cell.layoutMargins = UIEdgeInsets.zero
         cell.backgroundColor = UIColor.black
+        cell.drawCheckbox()
+        
+        if (cell.isDisabled) {
+            cell.label.textColor = UIColor.darkGray
+        }
+        
         return cell
     }
     
