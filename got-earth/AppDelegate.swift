@@ -13,9 +13,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let PREF_INITIATED = "initiatedv10"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // if preferences haven't been saved then set initial preferences
+        let prefObserver = PreferenceObserver()
+        if (prefObserver.fetchPreference(key: PREF_INITIATED) == nil) {
+            
+            // set initial checked list
+            prefObserver.setValue(value: true, key: "Show Westeros")
+            prefObserver.setValue(value: false, key: "Show Essos")
+            prefObserver.setValue(value: false, key: "Show Sothoryos")
+            
+            // set initial purchased list (if they're disabled)
+            let storeDefaults = StorePreferenceObserver()
+            storeDefaults.setValue(value: false, key: StorePreferenceObserver.DEFAULTS_PREFIX + "Show Westeros")
+            storeDefaults.setValue(value: true, key: StorePreferenceObserver.DEFAULTS_PREFIX + "Show Essos")
+            storeDefaults.setValue(value: true, key: StorePreferenceObserver.DEFAULTS_PREFIX + "Show Sothoryos")
+            
+            prefObserver.setValue(value: true, key: PREF_INITIATED)
+        }
+        
         return true
     }
 

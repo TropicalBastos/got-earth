@@ -26,6 +26,8 @@
 		3E67D906227B4354007A95CE /* hardhome.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E67D903227B4354007A95CE /* hardhome.png */; };
 		3E67D907227B4354007A95CE /* the_twins in Resources */ = {isa = PBXBuildFile; fileRef = 3E67D904227B4354007A95CE /* the_twins */; };
 		3E67D909227B435D007A95CE /* dragonstone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E67D908227B435D007A95CE /* dragonstone.png */; };
+		3E71A1BC228A38BC0017F4A1 /* PreferenceObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71A1BB228A38BC0017F4A1 /* PreferenceObserver.swift */; };
+		3E71A1BE228A3E040017F4A1 /* StorePreferenceObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71A1BD228A3E040017F4A1 /* StorePreferenceObserver.swift */; };
 		3E72581122879923008DD4E5 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E72580F22879922008DD4E5 /* checked.png */; };
 		3E72581222879923008DD4E5 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E72581022879923008DD4E5 /* unchecked.png */; };
 		3E7258142287997F008DD4E5 /* disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7258132287997F008DD4E5 /* disabled.png */; };
@@ -71,6 +73,8 @@
 		3E67D903227B4354007A95CE /* hardhome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hardhome.png; sourceTree = "<group>"; };
 		3E67D904227B4354007A95CE /* the_twins */ = {isa = PBXFileReference; lastKnownFileType = file; path = the_twins; sourceTree = "<group>"; };
 		3E67D908227B435D007A95CE /* dragonstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonstone.png; sourceTree = "<group>"; };
+		3E71A1BB228A38BC0017F4A1 /* PreferenceObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceObserver.swift; sourceTree = "<group>"; };
+		3E71A1BD228A3E040017F4A1 /* StorePreferenceObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePreferenceObserver.swift; sourceTree = "<group>"; };
 		3E72580F22879922008DD4E5 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
 		3E72581022879923008DD4E5 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
 		3E7258132287997F008DD4E5 /* disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disabled.png; sourceTree = "<group>"; };
@@ -135,6 +139,8 @@
 				3EF75E6422696329001A1ED5 /* DetailsViewController.swift */,
 				3E32F3F022667F03002A8983 /* Main.storyboard */,
 				3EC4796622837FB1001877FF /* SettingsViewController.swift */,
+				3E71A1BB228A38BC0017F4A1 /* PreferenceObserver.swift */,
+				3E71A1BD228A3E040017F4A1 /* StorePreferenceObserver.swift */,
 				3EC4796722837FB1001877FF /* SettingsViewController.xib */,
 				3EE43D2022850D52004182D7 /* ShowLabelsTableViewCell.swift */,
 				3EE43D2122850D52004182D7 /* ShowLabelsTableViewCell.xib */,
@@ -285,9 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E71A1BC228A38BC0017F4A1 /* PreferenceObserver.swift in Sources */,
 				3E32F3EF22667F03002A8983 /* MainViewController.swift in Sources */,
 				3E32F3EB22667F03002A8983 /* AppDelegate.swift in Sources */,
 				3EC4796822837FB1001877FF /* SettingsViewController.swift in Sources */,
+				3E71A1BE228A3E040017F4A1 /* StorePreferenceObserver.swift in Sources */,
 				3E4FB615226E9E77007B7023 /* HUDOverlay.swift in Sources */,
 				3EE43D2222850D52004182D7 /* ShowLabelsTableViewCell.swift in Sources */,
 				3E2ED390226BE96D000CF2BC /* StringBundle.swift in Sources */,

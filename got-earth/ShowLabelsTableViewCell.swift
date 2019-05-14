@@ -17,6 +17,8 @@ class ShowLabelsTableViewCell: UITableViewCell {
     var isDisabled: Bool! = false
     var isChecked: Bool! = true
     var tapGesture: UITapGestureRecognizer!
+    var observer: PreferenceObserver!
+    var storeObserver: StorePreferenceObserver!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,6 +27,10 @@ class ShowLabelsTableViewCell: UITableViewCell {
         tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleCheckboxClick))
         checkbox.addGestureRecognizer(tapGesture)
         checkbox.isUserInteractionEnabled = true
+        
+        // observers
+        observer = PreferenceObserver()
+        storeObserver = StorePreferenceObserver()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -51,7 +57,7 @@ class ShowLabelsTableViewCell: UITableViewCell {
         isChecked = !isChecked
         drawCheckbox()
         
-        // TODO notify some data observer
+        observer.onUpdate(key: label.text!, value: isChecked)
     }
     
 }

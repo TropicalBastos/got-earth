@@ -24,11 +24,16 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
         var disabled: Bool
     }
     
-    var labels: [LabelStruct] = [
-        LabelStruct(title: "Show Westeros", checked: true, disabled: false),
-        LabelStruct(title: "Show Essos", checked: false, disabled: true),
-        LabelStruct(title: "Show Sothoryos", checked: false, disabled: true)
+    let labelsToFetch: [String] = [
+        "Show Westeros",
+        "Show Essos",
+        "Show Sothoryos"
     ]
+    
+    var labels: [LabelStruct]!
+    
+    var prefObserver: PreferenceObserver!
+    var storeObserver: StorePreferenceObserver!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +46,17 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
              NSAttributedStringKey.font: primaryFont!]
         
         closeButton.action = #selector(closeSettings)
+        
+        prefObserver = PreferenceObserver()
+        storeObserver = StorePreferenceObserver()
+        
+        labels = []
+        for label in labelsToFetch {
+            let isChecked = prefObserver.fetchPreference(key: label) as! Bool
+            let isDisabled = storeObserver.fetchPreference(key: label) as! Bool
+            let labelObj = LabelStruct(title: label, checked: isChecked, disabled: isDisabled)
+            labels.append(labelObj)
+        }
         
         tableViewSetup()
     }
@@ -86,8 +102,8 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
         
         let accumulatedRow = indexPath.section * (indexPath.row + 1)
         cell.label.text = self.labels[accumulatedRow].title
-        cell.isDisabled = self.labels[accumulatedRow].disabled
-        cell.isChecked = self.labels[accumulatedRow].checked
+        cell.isDisabled = storeObserver.fetchPreference(key: cell.label.text!) as! Bool
+        cell.isChecked = prefObserver.fetchPreference(key: cell.label.text!) as! Bool
         
         cell.separatorInset = UIEdgeInsets.zero
         cell.layoutMargins = UIEdgeInsets.zero
