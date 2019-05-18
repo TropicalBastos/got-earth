@@ -40,6 +40,7 @@
 		3EC4796522837AFE001877FF /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4796422837AFE001877FF /* settings.png */; };
 		3EC4796822837FB1001877FF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4796622837FB1001877FF /* SettingsViewController.swift */; };
 		3EC4796922837FB1001877FF /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4796722837FB1001877FF /* SettingsViewController.xib */; };
+		3ED5FCA622909C2600A1A059 /* StoreObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5FCA522909C2600A1A059 /* StoreObserver.swift */; };
 		3EE3BFD3226FE04A008AA9F3 /* castle_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD2226FE04A008AA9F3 /* castle_black.png */; };
 		3EE3BFD5226FE78E008AA9F3 /* highgarden.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD4226FE78D008AA9F3 /* highgarden.png */; };
 		3EE3BFD8226FE9B3008AA9F3 /* sunspear.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE3BFD6226FE9B3008AA9F3 /* sunspear.png */; };
@@ -87,6 +88,7 @@
 		3EC4796422837AFE001877FF /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		3EC4796622837FB1001877FF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3EC4796722837FB1001877FF /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		3ED5FCA522909C2600A1A059 /* StoreObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreObserver.swift; sourceTree = "<group>"; };
 		3EE3BFD2226FE04A008AA9F3 /* castle_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castle_black.png; sourceTree = "<group>"; };
 		3EE3BFD4226FE78D008AA9F3 /* highgarden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highgarden.png; sourceTree = "<group>"; };
 		3EE3BFD6226FE9B3008AA9F3 /* sunspear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunspear.png; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				3EC4796622837FB1001877FF /* SettingsViewController.swift */,
 				3E71A1BB228A38BC0017F4A1 /* PreferenceObserver.swift */,
 				3E71A1BD228A3E040017F4A1 /* StorePreferenceObserver.swift */,
+				3ED5FCA522909C2600A1A059 /* StoreObserver.swift */,
 				3EC4796722837FB1001877FF /* SettingsViewController.xib */,
 				3EE43D2022850D52004182D7 /* ShowLabelsTableViewCell.swift */,
 				3EE43D2122850D52004182D7 /* ShowLabelsTableViewCell.xib */,
@@ -295,6 +298,7 @@
 				3E32F3EF22667F03002A8983 /* MainViewController.swift in Sources */,
 				3E32F3EB22667F03002A8983 /* AppDelegate.swift in Sources */,
 				3EC4796822837FB1001877FF /* SettingsViewController.swift in Sources */,
+				3ED5FCA622909C2600A1A059 /* StoreObserver.swift in Sources */,
 				3E71A1BE228A3E040017F4A1 /* StorePreferenceObserver.swift in Sources */,
 				3E4FB615226E9E77007B7023 /* HUDOverlay.swift in Sources */,
 				3EE43D2222850D52004182D7 /* ShowLabelsTableViewCell.swift in Sources */,

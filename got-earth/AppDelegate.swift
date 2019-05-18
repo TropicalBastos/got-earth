@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import StoreKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var iapObserver: StoreObserver!
 
     let PREF_INITIATED = "initiatedv10"
 
@@ -36,6 +38,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             prefObserver.setValue(value: true, key: PREF_INITIATED)
         }
         
+        self.iapObserver = StoreObserver()
+        SKPaymentQueue.default().add(iapObserver)
+        
         return true
     }
 
@@ -58,7 +63,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        SKPaymentQueue.default().remove(self.iapObserver)
     }
 
 
