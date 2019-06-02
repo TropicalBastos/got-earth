@@ -197,7 +197,7 @@ class MainViewController: UIViewController {
         let locations = PrefLocationMap[prefBranch]!
         for location in locations {
             for childNode in scene.rootNode.childNodes {
-                if childNode.name == location {
+                if childNode.name == location || childNode.name == (location + "_pole") {
                     childNode.isHidden = isHidden
                 }
             }
