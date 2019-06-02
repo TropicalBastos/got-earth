@@ -50,6 +50,7 @@
 		3EE43D2322850D52004182D7 /* ShowLabelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EE43D2122850D52004182D7 /* ShowLabelsTableViewCell.xib */; };
 		3EF75E6522696329001A1ED5 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF75E6422696329001A1ED5 /* DetailsViewController.swift */; };
 		3EF75E6822696F9A001A1ED5 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EF75E6722696F9A001A1ED5 /* en.json */; };
+		3EF8812F22A374F300985B3A /* Prefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8812E22A374F300985B3A /* Prefs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		3EE43D2122850D52004182D7 /* ShowLabelsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowLabelsTableViewCell.xib; sourceTree = "<group>"; };
 		3EF75E6422696329001A1ED5 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		3EF75E6722696F9A001A1ED5 /* en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
+		3EF8812E22A374F300985B3A /* Prefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				3E32F3F022667F03002A8983 /* Main.storyboard */,
 				3EC4796622837FB1001877FF /* SettingsViewController.swift */,
 				3E71A1BB228A38BC0017F4A1 /* PreferenceObserver.swift */,
+				3EF8812E22A374F300985B3A /* Prefs.swift */,
 				3E71A1BD228A3E040017F4A1 /* StorePreferenceObserver.swift */,
 				3ED5FCA522909C2600A1A059 /* StoreObserver.swift */,
 				3EC4796722837FB1001877FF /* SettingsViewController.xib */,
@@ -300,6 +303,7 @@
 				3EC4796822837FB1001877FF /* SettingsViewController.swift in Sources */,
 				3ED5FCA622909C2600A1A059 /* StoreObserver.swift in Sources */,
 				3E71A1BE228A3E040017F4A1 /* StorePreferenceObserver.swift in Sources */,
+				3EF8812F22A374F300985B3A /* Prefs.swift in Sources */,
 				3E4FB615226E9E77007B7023 /* HUDOverlay.swift in Sources */,
 				3EE43D2222850D52004182D7 /* ShowLabelsTableViewCell.swift in Sources */,
 				3E2ED390226BE96D000CF2BC /* StringBundle.swift in Sources */,

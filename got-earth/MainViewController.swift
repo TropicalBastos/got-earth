@@ -110,6 +110,10 @@ class MainViewController: UIViewController {
         }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        runPrefs()
+    }
+    
     @objc
     func handlePinch(_ gesture: UIPinchGestureRecognizer) {
         
@@ -187,6 +191,27 @@ class MainViewController: UIViewController {
         let size = CGSize(width: self.view.bounds.width, height: self.view.bounds.height)
         hudScene = HUDOverlay(size: size, parentViewController: self)
         (self.view as! SCNView).overlaySKScene = hudScene
+    }
+    
+    func toggleVisibility(prefBranch: String, isHidden: Bool) {
+        let locations = PrefLocationMap[prefBranch]!
+        for location in locations {
+            for childNode in scene.rootNode.childNodes {
+                if childNode.name == location {
+                    childNode.isHidden = isHidden
+                }
+            }
+        }
+    }
+    
+    func runPrefs() {
+        let prefObserver = PreferenceObserver()
+        let showWesteros = prefObserver.getBool(key: "Show Westeros")
+        if !showWesteros {
+            toggleVisibility(prefBranch: "Show Westeros", isHidden: true)
+        } else if showWesteros {
+            toggleVisibility(prefBranch: "Show Westeros", isHidden: false)
+        }
     }
 
 }

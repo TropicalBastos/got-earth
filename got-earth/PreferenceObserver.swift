@@ -24,6 +24,10 @@ class PreferenceObserver {
         defaults.set(value, forKey: key)
     }
     
+    func getBool(key: String) -> Bool {
+        return defaults.bool(forKey: key)
+    }
+    
     func checkOption(option: String) {
         defaults.set(true, forKey: option)
     }
