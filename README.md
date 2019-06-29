@@ -37,7 +37,7 @@ A fan based open source 3D game of thrones earth map
 - This is achieved by adding new entries to locale/en.json in the project
 - The way it works is each entry must have the same name as the name of the location label in the 3D model for it to map touch events correctly
 - Each entry maps to a 3-key dictionary which includes the data bindings for the title, image and description.
-- Images are just the name of the images found in the resources folder and if fetched from another source - requires asking for permission by the content owner.
+- Images are just the name of the images found in the resources folder and if fetched from another source - requires asking for permission to the content owner.
 
 ## Disclaimer
 This is a non commercial product (it originally was going to be commercial hence it has some store code but it I ended up not having time and made it open source). This is a fan-based open source project and is not officially licensed by Game of Thrones.
