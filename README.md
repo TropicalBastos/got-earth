@@ -5,9 +5,7 @@ A fan based open source 3D game of thrones earth map
 ## Status: In Development
 
 <p align="center">
-    <img width="400" src="screenshots/code-editor.png">
-</p>
-<p align="center">
+    <img width="300" src="screenshots/code-editor.png">
     <img width="200" src="screenshots/globe.png">
     <img width="200" src="screenshots/infoview.png">
 </p>
