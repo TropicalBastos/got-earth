@@ -19,7 +19,7 @@ A fan based open source 3D game of thrones earth map
 
 ### Build
 
-- Load the project with Xcode
+- Load the project with Xcode (open got-earth.xcodeproj)
 - From here you can just click Build and it will build and run
 
 ### Development
